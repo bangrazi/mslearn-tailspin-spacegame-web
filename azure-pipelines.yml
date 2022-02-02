@@ -20,6 +20,7 @@ steps:
   inputs:
     packageType: sdk
     version: 6.0.x'
+    includePreviewVersions: true
 
 - task: Npm@1
   displayName: 'Run npm install'
